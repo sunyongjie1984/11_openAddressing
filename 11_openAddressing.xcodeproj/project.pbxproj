@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160E4C2821234900634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160E4B2821234900634997 /* main.cpp */; };
+		13160E542821236400634997 /* OpenAddressing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160E522821236400634997 /* OpenAddressing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13160E482821234900634997 /* 11_openAddressing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 11_openAddressing; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160E4B2821234900634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160E522821236400634997 /* OpenAddressing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenAddressing.cpp; sourceTree = "<group>"; };
+		13160E532821236400634997 /* OpenAddressing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAddressing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		13160E4A2821234900634997 /* 11_openAddressing */ = {
 			isa = PBXGroup;
 			children = (
-				13160E4B2821234900634997 /* main.cpp */,
+				13160E522821236400634997 /* OpenAddressing.cpp */,
+				13160E532821236400634997 /* OpenAddressing.h */,
 			);
 			path = 11_openAddressing;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160E4C2821234900634997 /* main.cpp in Sources */,
+				13160E542821236400634997 /* OpenAddressing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
